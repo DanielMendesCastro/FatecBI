@@ -994,7 +994,9 @@ a.btn:focus{
 }
 
 /* Media queries */
-
+.selecione{
+	font-size: 250%;
+}
 @media(min-width:767px) {
 
     .navbar {
@@ -1037,6 +1039,9 @@ a.btn:focus{
 	.hero { background: url(../img/celu.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 430px 0 430px 0; height: auto; }
 	#navigation {
 		padding: 20px 0;
+	}
+	.selecione{
+		font-size: 150%
 	}
 	.site-logo{
 		margin: 0 0 0 30px;
